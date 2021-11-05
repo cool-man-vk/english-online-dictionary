@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+* 
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body 
+{
+    background-color: black;
+}
+.navbar 
+{
+    background: linear-gradient(25deg,blue,blueviolet); 
+    height:80px;
+    width:100%;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    display: flex;
+    padding:15px;
+}
+.navbar h2 
+{
+    color:white;
+    font-size:28px; 
+    letter-spacing: 1px;
+}
+input[type="text"] 
+{
+    padding:10px;
+    border-radius: 10px; 
+    border:none;
+    outline: none; 
+    border:2px solid blueviolet;  
+    width:40%; 
+    margin-left: 30%; 
+    margin-right: 30%;
+    letter-spacing: 1px; 
+    font-size:16px;
+    margin-top: 150px;
+    box-shadow: 0 0 8px blueviolet;
+}
+input[type="text"]:focus 
+{
+    border:2px solid gold;
+    box-shadow: 0 0 8px gold;
+}
+input[type="submit"] 
+{
+    outline: none; 
+    border: none; 
+    border-radius: 25px; 
+    background: linear-gradient(orange,orangered);
+    color:white;
+    padding:10px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    cursor: pointer;
+    font-size:18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+input[type="submit"]:hover 
+{
+    background: linear-gradient(orangered,orange);
+}
+h4,p 
+{
+    color:white;
+}
+h4 
+{
+    color:orangered;
+    text-align: center; 
+    font-size:32px;
+    padding:8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p 
+{
+    color:white;
+    font-size:20px;
+    padding:8px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+@media (max-width:500px) {
+    input[type="text"] 
+    {
+        width:90% !important;
+        margin-left: 5% !important; 
+        margin-right: 5% !important;
+    }
+}
